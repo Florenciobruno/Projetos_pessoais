@@ -1,0 +1,16 @@
+print("Olá!")
+nome = input ("Digite seu nome:")
+peso = float(input("Qual o seu peso: "))
+altura = float(input("Digite sua altura em metros): "))
+imc = (peso / altura**2)
+print("seu IMC é: " )
+print (f"imc {imc:4.2f}")
+
+
+print("Abaixo de 17         	Muito abaixo do peso")
+print("Entre 17 e 18,49   	Abaixo do peso")
+print("Entre 18,5 e 24,99	Peso normal")
+print("Entre 25 e 29,99   	Acima do peso")
+print("Entre 30 e 34,99	   Obesidade I")
+print("Entre 35 e 39,99   	Obesidade II severa")
+print("Acima de 40     Obesidade III mórbida")
