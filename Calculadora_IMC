@@ -1,4 +1,3 @@
-
 print("Olá!")
 nome = input ("Digite seu nome:")
 peso = float(input("Qual o seu peso: "))
@@ -10,21 +9,21 @@ print (f" {IMC:4.2f}")
 if IMC < 17.0:
 	   print ("Você está muito abaixo do peso")
 	  
-elif IMC >17.01 and IMC<=18.49:
+elif  IMC<=18.49:
 	print("Você está abaixo do peso")
 	
-elif IMC >18.50 and IMC<=24.99:
+elif  IMC<=24.99:
 	print("Você está com peso normal")
 	
 	
-elif IMC >25.00 and IMC<= 29.99:
+elif  IMC<= 29.99:
 	print("Você está acima do peso")
 	
 	
-elif IMC >30.00 and IMC<=34.99:
+elif IMC<=34.99:
 	print("Você está com obesidade I")
 	
-elif IMC >35.00 and IMC<= 39.99:
+elif IMC<= 39.99:
 	print("Você está com obesidade II")
 	
 elif IMC >40.00:
@@ -36,9 +35,15 @@ print("Entre 18,5 e 24,99	Peso normal")
 print("Entre 25 e 29,99   	Acima do peso")
 print("Entre 30 e 34,99	   Obesidade I")
 print("Entre 35 e 39,99   	Obesidade II severa")
-print("Acima de 40     Obesidade III mórbida")
+print("Acima de 40     Obesidade III mórbida'")
 
 
+   
+
+
+print( "Para mais informacōes consulte o site oficial do ministerio da saude em:")
+
+print('https://www.gov.br/saude/pt-br')
    
 
 
