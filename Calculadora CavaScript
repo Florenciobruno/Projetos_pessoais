@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+        <h1>Teste Calculadora JavaScript</h1>
+
+            <script>
+
+
+                setTimeout(teste,500);
+
+
+                function teste(){
+                var x = 0
+                while(x == 0){
+                    var entrada = parseFloat(prompt("Insira o valor de entrada"));
+                    var saida = parseFloat(prompt("Insira o valor de saida."));
+
+                    if(entrada <= 0|| saida <= 0){
+                        alert("Insira valores iguais ou maiores que zero");
+                        
+                    }else if(entrada > saida){
+                        alert("O ano de inicio não pode ser maior que o ano final");
+                    }
+                    else{
+                        document.write(saida - entrada);
+                        x = 1
+
+                        setInterval(teste,10000);
+                    }
+                }
+
+                }
+
+
+               
+                
+            </script>
+        </body>
+</html>
