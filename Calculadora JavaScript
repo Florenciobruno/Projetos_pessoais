@@ -30,7 +30,7 @@
                         document.write(saida - entrada);
                         x = 1
 
-                        setInterval(teste,10000);
+                        setTimeout(teste,7500);
                     }
                 }
 
